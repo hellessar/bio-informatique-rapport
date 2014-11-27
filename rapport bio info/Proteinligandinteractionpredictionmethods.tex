@@ -1,2 +1,15 @@
 \section{Protein ligand interaction prediction methods}
-\subsection{FUNFold}
+\subsection{FunFOLD}
+The key features to understand FunFOLD is that despite the evolution (mutation, subsitution etc...) the structures, and by extention the folds, are more well-conserved than the sequence. Plus the ligand which allowed operation such as blocking a site, activate or deactivate protein's functions etc... are also well-conserved, this imply that the expression of the proteins depends on his structure and his ligands. Thus if a protein have the same ligand and structure we can imply that they have the same function.
+\newline
+\subsubsection{How does it work?}
+The ligand could be considered as a tiny point of glue, it is first attached on a part of the protein, then it will carry the given information.
+Le système de prédiction marche comme ceci:
+\newline
+Un ligand se colle sur une zone de la protéine et y laisse des marques.Ces résidus peuvent être observables mais il y'a une imprécision, le dépot de résidu ce fait à une distance variante. Cette imprécision peut être atténué par la structure de la protéine. En effet, il existe des structures qui favorisent plus l'attachement de ces ligands que d'autre. 
+\newline
+La technique FUNFold consiste donc à pouvoir prédire la zone où des ligands vont s'attacher et deviner ainsi la fonction de cette zone en fonction de l'expression du ligand.
+\subsubsection{Benchmarking}
+En comparant les valeurs de prédiction retournées par le FUNFold comparées aux valeurs obtenu par le CASP, on voit nettement que la valeur moyenne est bien supérieur pour le FUNFold. Le FUNFold est donc plus éfficace.
+\subsubsection{FUNFOLDQA: quality assement tool}
+
