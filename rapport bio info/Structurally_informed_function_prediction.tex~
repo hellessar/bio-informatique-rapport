@@ -1,0 +1,26 @@
+\section{Structurally informed function prediction}
+   \subsection{differents methods}
+   
+   There are two types of binding site prediction methods :
+   \begin{enumerate}
+     \item The sequence based method which identify conserved residues that may be structurally or functionally important
+     \item The structure based method which is energetic, geometric method and use miscellaneous methods.
+   \end{enumerate}
+
+   \subsection{Function prediction in CASP}
+      \subsubsection{What is it ?}
+         
+         That consist on make the prediction of ligand binding residues within a protein of unknown structure.
+         
+      \subsubsection{ligand binding site residue prediction methods}
+         
+         \begin{enumarate}
+           \item Predict the location of the protein binding site
+           \item Predict the ligand and location of the ligand within the binding site
+           \item Predict the residues that bind to the ligand within the binding site
+         \end{enumerate}
+
+      \subsubsection{what's the utility ?}
+         
+         These tools are needed on many fields like annotation of genome, \textit{de novo} drug design, or mutagenesis studies.\\
+         It's also used in the elucidation of protein function and to predict ligand binding specificity.

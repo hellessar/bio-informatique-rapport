@@ -1,37 +1,28 @@
 \section{Model quality assessment}
-\subsection{Model quality asessment algorithms}
+\subsection{How to define the model quality}
+   The model quality idea isn't easy to define because it's very subjective notion.\\
+   It was define by comparison before the availability of cristal structure.\\
+
+   Thus, with some evaluation criteria, Research could produce some algorithms which can evaluate models
+
+\subsection{Evaluation Algorithm}
 \begin{enumerate}
 	\item ModFOLDclust2
+          Create by Daniel Roche and Mc Muffin in 2010, this algorithm operate as follows :
 		\begin{enumerate}
-		\item Clustering-based method
-		\item Combines structural alignement of multiple models
-		\item Producing glabal quality scores and per-residue errors
+                \item It use Clustering-based method
+                \item Combines structural alignement of multiple models with a method using Q-score
+                \item Producing glabal quality scores and per-residue errors
 		\end{enumerate}
 	\item RFMQA 
+          This algorithm is much more recent, it was created en 2014 by Manavalan and Al
 		\begin{enumerate}
-		\item Single model-based method
-		\item Random forest based model quality assessment
-		\item Ranks protein models using its structural features and knowledge-based potential energy terms
-		\item Produces global model quality score
+                  \item It use a single model-based method
+                  \item Random forest based model quality assessment
+                  \item Ranks protein models using its structural features and knowledge-based potential energy terms
+                  \item Produces global model quality score
 		\end{enumerate}
 \end{enumerate}
-
-Basically, 
-
-\subsection{Structurally informed function prediction}
-
-There are many predictions ways existing for proteins structures. Most of them are structures observation methods.
-\newline
-\begin{enumerate}
-\item Geometric methods
-\item Energetic methods
-\item Homology modelling
-\item Surface accessibility
-\item Physiochemical properties
-\end{enumerate}
-Also, others methods do exist. A sequence based method exist. It has significant impact on understanding protein function, elucidating signal transduction networks. This method accentuate the study of the amino acid sequence  and his prediction.
-\newline 
-This method is particuliary appreciated because the number of sequences to study is cosntantly growing and the sequence study take a consequent amount of time, the prediction will save time and will be able to reveal the protein's sequence.
 
 
 

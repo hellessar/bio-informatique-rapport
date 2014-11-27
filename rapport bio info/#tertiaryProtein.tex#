@@ -1,0 +1,40 @@
+\section{What is a protein structure prediction? }
+\subsection{What is a protein tertiary structure? } 
+\emph{The term \underline{protein tertiary structure} refers to a protein's geometric shape. The tertiary structure will have a single polypeptide chain "backbone" with one or more protein secondary structures, the protein domains. Amino acid side chains may interact and bond in a number of ways. The interactions and bonds of side chains within a particular protein determine its tertiary structure. The protein tertiary structure is defined by its atomic coordinates. These coordinates may refer either to a protein domain or to the entire tertiary structure.}
+\newline \newline
+The scientific vulgarization is that the tertiary structure is the spacial 3D structur. Her shape can change depending on his structure the pH and the temperature. A consequent number or properties can be found thank to the tertiary structure.
+\newline
+Thus, we can easily conclude why it is a major importance to modelize such data.
+
+
+\subsection{Protein tertiary structure determination}
+   Protein structure can be determinate experimentaly, using NMR or X-ray cristallography, and theoricaly, with template based method or template free method.
+   \subsubsection{Why use this methods ?}
+
+   it allows us 
+
+ 
+Predictive methods are easily automated, fast and cheap
+Predicted structure allows you to infer function
+Some proteins are difficult to resolve experimentally e.g. intrinsic protein disorder, membrane proteins
+Rapid structural annotation of proteomes
+      
+      A protein tertiary structure determination allows us to know more on the protein we are currently observing such as:
+      \begin{itemize}
+	 \item Connection between sequence and structures
+	 \item  Easier than microscopic observation
+	 \item Evolution of proteins
+      \end{itemize}
+      This methods are easily automated, fast and cheap, and it allows us to infer function
+
+\subsection{Different protein tertiary structure determination methods} 
+\subsubsection{Template-based modelling}
+\subsubsubsection{Template-based modelling fold recognition}
+Similar protein's sequences have the same folds. Thus, we can classify proteins according to their shapes. One of the advantages of such classification is that the number of unique structural folds is very low compares to the number of proteins.
+\newline
+Today, the classification of folds is very advanced and only a few folds are discovered.
+\subsubsubsection{Template-based modelling homology }
+
+\subsubsection{Template-free modelling}
+Template-free modeling is the prediction of the proteins structure. Compared to temple-based modelling, no proteins are used as template. 
+\newline This technique has a lot of advantages compares to template-based ones.
