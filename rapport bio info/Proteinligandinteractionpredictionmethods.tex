@@ -4,13 +4,14 @@ The key features to understand FunFOLD is that despite the evolution (mutation, 
 \newline
 \subsubsection{How does it work?}
 The ligand could be considered as a tiny point of glue, it is first attached on a part of the protein, then it will carry the given information.
-Le système de prédiction marche comme ceci:
 \newline
-Un ligand se colle sur une zone de la protéine et y laisse des marques.Ces résidus peuvent être observables mais il y'a une imprécision, le dépot de résidu ce fait à une distance variante. Cette imprécision peut être atténué par la structure de la protéine. En effet, il existe des structures qui favorisent plus l'attachement de ces ligands que d'autre. 
+The prediction system work like this:
 \newline
-La technique FUNFold consiste donc à pouvoir prédire la zone où des ligands vont s'attacher et deviner ainsi la fonction de cette zone en fonction de l'expression du ligand.
+A ligand glue himself on a specific part of the protein and will leave there some marks. These residues can be visible but with some imprecision. The deposit can be realesed at a variable distance. This lack of accuracy can be compensate by the structure of the protein. Indeed, there are some structure that can promote a better accuracy. So the choice of the zone to study is very improtant. 
+\newline
+The FUNFold technic consist on the prediction capacity to know where the ligand are going to attached themselves and then to predict the function depending on the ligand expression.
 \subsubsection{Benchmarking}
-En comparant les valeurs de prédiction retournées par le FUNFold comparées aux valeurs obtenu par le CASP, on voit nettement que la valeur moyenne est bien supérieur pour le FUNFold. Le FUNFold est donc plus éfficace.
+By comparing the predictions values returned by the FUNFold one compare to others technics used on the CASP, we can clearly see that the mean value is higher for the FUNFold. Thus FUNFold is more efficient.
 \subsubsection{FUNFOLDQA: quality assement tool}
 This quality assement for FUNFold is based on protein-ligand site residue. For starter, it is needed to have a 3D structures to analyse. Then the protein structure is analysed. Many methods are used:
 \begin{enumerate}

@@ -1,9 +1,9 @@
 \section{Limitations et perspectives}
 \subsection{Limitation}
-La première limitation est la dépendance au modèle 3D. Sans la modélisation de la protéïne il est impossible d'avancer. Cette dépendance est lié à la base de données utilisée, si la requête à la base de données est nulle, aucune prédiction sera faite.
+The first limitation is also 3D dependency. Without the protein's modelization it is impossible to go further. This dependancy is related to the database, if the query returns a null value, no prediction will be used.
 \newline
-Chaque séquence ne peut avoir qu'une seule prédiction, dans le cas d'une séquence avec plusieurs expressions nous serons vite limités.
+Each sequency can only have one prediction, in that case a multi-expression sequency will be quickly eliminated and there will be a lack of accuracy in the prediction.
 \subsection{Perspectives}
-La première amélioration importante serait l'augmentation de la précision pour la détection des résidus. Cette amélioration permettra directement d'augementer la précision dans la prédiction des protéines. Indirectement cette augmentation de précision passe par des contraintes logiciel tel que la modélisation 3D de la protéine. Pouvoir atténuer les distances entre les modèles  3D modèles et les protéines ciblées.
-\newline
-Ceci implique également une base de données consequente. En effet cet augmentation de précision va de pair avec volumes de données, plus la précision augmente plus les données pour les representer augmentent.
+The first upgrade would be a higher ligand residue detection. This ugrade will allow to directly increase the protein's prediction. Indirectly, this accuracy rising will be related to the software constraint, such as the 3D recongnition. 
+\newline Another upgrade could be a better 3D modelization that will allow a better flexibility in form recognition. This will allow to have better result between the model and the targeted protein.
+\newline This implies a consequent architecture. Indeed, this accuracy increasement will be paired with data volume. The higher the  precision, the higher the data will be.
