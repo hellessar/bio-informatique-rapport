@@ -6,23 +6,26 @@
    Thus, with some evaluation criteria, Research could produce some algorithms which can evaluate models
 
 \subsection{Evaluation Algorithm}
-\begin{enumerate}
+   \begin{enumerate}
 	\item ModFOLDclust2
           Create by Daniel Roche and Mc Muffin in 2010, this algorithm operate as follows :
-		\begin{enumerate}
-                \item It use Clustering-based method
-                \item Combines structural alignement of multiple models with a method using Q-score
-                \item Producing glabal quality scores and per-residue errors
-		\end{enumerate}
+	  \begin{enumerate}
+             \item Clustering-based method
+             \item Combines structural alignement of multiple models with a method using Q-score
+             \item Producing global quality scores and per-residue errors
+	  \end{enumerate}
+          So, this algorithm apply on a group of methods and compare their to know which is the best.
 	\item RFMQA 
           This algorithm is much more recent, it was created en 2014 by Manavalan and Al
-		\begin{enumerate}
-                  \item It use a single model-based method
-                  \item Random forest based model quality assessment
-                  \item Ranks protein models using its structural features and knowledge-based potential energy terms
-                  \item Produces global model quality score
-		\end{enumerate}
-\end{enumerate}
+	  \begin{enumerate}
+             \item It use a single model-based method
+             \item Random forest based model quality assessment
+             \item Ranks protein models using its structural features and knowledge-based potential energy terms
+             \item Produces global model quality score
+	  \end{enumerate}
+          Also, this algorithm can use only one method to test it quality. it base on un random group of method referency and compare them to the first one to know if it's a good method.
+          
+   \end{enumerate}
 
 
 
