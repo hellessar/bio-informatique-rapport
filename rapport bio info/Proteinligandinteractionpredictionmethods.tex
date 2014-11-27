@@ -12,4 +12,11 @@ La technique FUNFold consiste donc à pouvoir prédire la zone où des ligands v
 \subsubsection{Benchmarking}
 En comparant les valeurs de prédiction retournées par le FUNFold comparées aux valeurs obtenu par le CASP, on voit nettement que la valeur moyenne est bien supérieur pour le FUNFold. Le FUNFold est donc plus éfficace.
 \subsubsection{FUNFOLDQA: quality assement tool}
+This quality assement for FUNFold is based on protein-ligand site residue. For starter, it is needed to have a 3D structures to analyse. Then the protein structure is analysed. Many methods are used:
+\begin{enumerate}
+\item{BDTalign: it's basically form recognition, the closest equivalent residues is choosen from a database.}
+\item{Identify score: It's the same idea as BDTalign but instead of using the 3D form the amino acid sequence is searched and then the closest equivalent is choosen according to the amino acid sequence.}
+\item{Rescaled BLOSUM62, Equivalent residue ligand distance score etc...}
+\end{enumerate}
 
+Basically most methods presented could be separated in two groups: using the structure of the protein and/or ligand or the composition of the protein/ligand.
